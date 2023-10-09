@@ -1,4 +1,5 @@
 #Rebranding to OMEGA Pvt Ltd. from Sigma Inc. All rights reserved.
+#OMEGA BRANCH
 # OMEGA FASHION OUTLET
 In this project, we are going to build a database system for a clothing outlet called OMEGA. We will build an efficient but a simple database system that OMEGA can use to manage their day to day operations. We will also make ER(Entity Relation) diagram and related diagrams that will show the relation between each tables in an easy way. We will also develop queries to build the database that we designed. We will also develop queries which we can use to perform various operations and get results based on the question.  
 

@@ -38,7 +38,7 @@ SELECT customer_id, CONCAT(first_name, ' ', last_name) AS full_name, date_of_bir
 WHERE
 date_of_birth > '1989-12-31';
 
---6) A special offer is announced for Gold, Platinum and Diamond membership customers who are born between 1980 and 2000--
+--6) A special offer is announced for Gold, Platinum and Diamond membership customers who are born between 2000 and 2020--
 --email and mobile no. of customers is required to contact them--
 --Display customer_id, full_name, phone, email, date_of_birth, membership type of customers who belongs to above mentioned criteria--
 
