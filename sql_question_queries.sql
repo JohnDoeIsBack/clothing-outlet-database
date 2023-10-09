@@ -1,11 +1,11 @@
--- 1) Display Name and Customer ID of all customers who have any kind of membership with Sigma--
+-- 1) Display Name and Customer ID of all customers who have any kind of membership with OMEGA--
 
 SELECT customer.customer_id, CONCAT(customer.first_name, ' ', customer.last_name) AS full_name FROM customer
 INNER JOIN membership
 ON
 customer.customer_id = membership.customer_id;
 
--- 2) Display Name and Customer ID and Membership Type of customers who have Either Gold or Diamond membership with Sigma--
+-- 2) Display Name and Customer ID and Membership Type of customers who have Either Gold or Diamond membership with OMEGA--
 --NOTE:- GOLD and DIAMOND are types of memberships--
 
 SELECT c.customer_id, CONCAT(c.first_name, ' ', c.last_name) AS full_name, md.membership_type FROM customer as c

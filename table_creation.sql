@@ -102,3 +102,20 @@ CREATE TABLE subscription
 	cancel_sub BOOLEAN,
 	addons_ifexists VARCHAR(200) NOT NULL
 );
+
+--11) Creating Probation table--
+CREATE TABLE #Employee
+(
+    ID              integer NOT NULL,
+    EmployeeID      integer NOT NULL,
+    [Status]        varchar(8) NOT NULL,
+    EffectiveDate   date NOT NULL,
+
+    CONSTRAINT [PK #Employee ID]
+        PRIMARY KEY CLUSTERED (ID)
+);
+
+--12) Checking for Probation Employee
+WHERE Status = 'Active'
+  AND StartDate < @EndDate
+  AND EndDate > @StartDate
